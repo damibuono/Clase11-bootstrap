@@ -1,0 +1,42 @@
+/* LA CLAVE ES IR AL INSPECTOR A VER QUE HACE CADA CLASE DE BOOTSTRAP Y MODIFICARLA PARA QUE NO SEA TAN OBVIO QUE ESTOY USANDO BOOTSTRAP
+ */
+
+
+h1{
+    font-size: 3rem;
+}
+.color-boton{
+    background-color: aqua;
+    color: darkslategray;
+}
+
+/* ESTOY SOBREESCRIBIENDO */
+.btn:hover {
+    color: black;
+    background-color: rgb(255, 219, 219);
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+/* le cambio solo una propiedad a row que ya existe */
+.row{
+    justify-content: space-between;
+}
+/* a cada uno de estas clases le fui modificando cosas pero ya tiene propiedades de bootstrap */
+.card{
+    background-color: rgb(255, 205, 189);
+}
+
+.navbar{
+    padding: 3rem;
+}
+.color-nav{
+    background-color: peru;
+}
+
+.navbar-brand{
+    color: white;
+}
+.carousel-padre{
+    width: 50vw;
+    margin: 0 auto;
+}
